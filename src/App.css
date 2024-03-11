@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 20px;
   height: 60px;
   position: fixed;
   top: 0;
@@ -28,8 +28,7 @@ body {
 }
 
 .nav span {
-  margin-left: 0px;
-  margin-right: 20px;
+  margin-left: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: large;
   padding-top: 10px;
@@ -59,7 +58,6 @@ body {
   border: 5px dotted #ba1a3a;
   padding: 15px;
   transition: filter 0.3s;
-  margin-top: 140px;
 }
 
 .intro-left img:hover {
@@ -85,13 +83,8 @@ body {
   font-family: cursive;
   font-size: 70px;
 }
-.skill-head {
-  font-size: xx-large;
-  width: 100%;
-}
 
 .skill {
-  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -102,7 +95,9 @@ body {
   border-radius: 50px;
   border: 5px dotted rgba(51, 28, 141, 0.533);
 }
-
+.para{
+  
+}
 .skill-card {
   width: 100px;
   height: 100px;

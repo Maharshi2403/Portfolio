@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Maharshi Patel",
-  roles: ["Full Stack Developer", "Android Developer", "Programmer"],
+  roles: ["Full Stack Developer", "Flutter Developer", "Programmer"],
   description:
-    "I am an enthusiastic and adaptable person, constantly seeking new opportunities to grow. Driven by a love for learning, I strive for excellence in everything I do. With a positive outlook and a mindset focused on growth, I am prepared to make a significant impact and accomplish remarkable feats.",
+    "I am an enthusiastic programmer currently learning MERN Stack and deep learning with TensorFlow.",
 };
 
 export const skills = [
