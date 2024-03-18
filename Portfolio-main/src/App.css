@@ -1,0 +1,147 @@
+/* App.css */
+
+body {
+  background-color: #12042a;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nav {
+  display: inline;
+  background-color: #060311;
+  color: aliceblue;
+  display: flex;
+
+  align-items: center;
+
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navRight {
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.intro-left {
+  margin-right: 20px;
+}
+
+.intro-left img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px dotted #ba1a3a;
+  padding: 15px;
+  transition: filter 0.3s;
+}
+
+.intro-left img:hover {
+  filter: drop-shadow(0 0 2em #007cf8);
+}
+
+.intro-right {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+
+.on {
+  color: blueviolet;
+  font-family: cursive;
+  font-size: 50px;
+}
+
+.off {
+  color: rgb(190, 40, 83);
+  font-family: cursive;
+  font-size: 70px;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #240847;
+  border-radius: 50px;
+  border: 5px dotted rgba(51, 28, 141, 0.533);
+}
+.skill-head {
+  width: 100%;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.skill-card {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.skill-img {
+  width: 100%;
+  height: auto;
+}
+
+.skill-name {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav span {
+    margin-left: 10px;
+    font-size: medium;
+  }
+
+  .intro-left {
+    margin-right: 0;
+  }
+
+  .intro-left img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro-right {
+    font-size: medium;
+  }
+
+  .skill-card {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .skill {
+    margin-top: 10px;
+    padding: 10px;
+  }
+}
