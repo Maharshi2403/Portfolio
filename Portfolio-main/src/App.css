@@ -14,6 +14,7 @@ body {
 }
 
 .nav {
+  position: absolute;
   display: inline;
   background-color: #060311;
   color: aliceblue;
@@ -92,8 +93,7 @@ body {
 .skill-head {
   width: 100%;
   font-size: x-large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .skill-card {
   width: 100px;
