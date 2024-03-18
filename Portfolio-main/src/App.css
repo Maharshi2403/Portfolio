@@ -22,7 +22,7 @@ body {
   align-items: center;
 
   height: 60px;
-  position: fixed;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -93,7 +93,7 @@ body {
   width: 100%;
   font-size: x-large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+
 }
 .skill-card {
   width: 100px;
