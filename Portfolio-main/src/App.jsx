@@ -23,14 +23,14 @@ function Navbar() {
       <span className="navRight">
         <a href="https://github.com/Maharshi2403">Github</a>
       </span>
-      <span  className="navRight">
+      <span className="navRight">
         <a href="https://www.linkedin.com/in/maharshi-patel-a87b19227/">
           Linkdin
         </a>
       </span>
-      <span  className="navRight">Projects</span>
-      <span  className="navRight">Skills</span>
-      <span  className="navRight">Contact</span>
+      <span className="navRight">Projects</span>
+      <span className="navRight">Skills</span>
+      <span className="navRight">Contact</span>
     </div>
   );
 }
@@ -67,7 +67,9 @@ function Introduction() {
             />
           </span>
         </h2>
-        <p className="para">{Bio.description}</p>
+        <div className="intro-para">
+          <h3>{Bio.description}</h3>
+        </div>
       </div>
     </div>
   );
