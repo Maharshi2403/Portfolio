@@ -150,11 +150,15 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .nav{
+    filter: drop-shadow(0 0 2em #007cf8);
+  }
   .nav span {
     margin-left: 10px;
     font-size: medium;
   }
-
+  
   .intro {
     display: flex;
     flex-direction: column;
