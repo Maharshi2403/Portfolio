@@ -45,7 +45,7 @@ function Introduction() {
       <div className="intro-left">
         <img
           onMouseOver={changeColor}
-          className={onMouse ? "intro-left-img" : "img-on"}
+          className={"intro-left-img"}
           src={IMAGES.image1}
           alt="Avatar"
         />
