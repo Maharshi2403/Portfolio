@@ -64,6 +64,19 @@ body {
   filter: drop-shadow(0 0 2em #007cf8);
 }
 
+.img-on {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px dotted #ba1a3a;
+  padding: 15px;
+
+  transition: filter 0.3s;
+}
+
+.img-on:hover {
+  filter: drop-shadow(0 0 2em #007cf8);
+}
 .intro-right {
   margin-top: 70px;
   margin-left: 0px;
