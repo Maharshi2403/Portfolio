@@ -30,7 +30,6 @@ function Navbar() {
       </span>
       <span className="navRight">Projects</span>
       <span className="navRight">Skills</span>
-      <span className="navRight">Contact</span>
     </div>
   );
 }
