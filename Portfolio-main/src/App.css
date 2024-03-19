@@ -150,21 +150,21 @@ body {
 }
 
 @media (max-width: 768px) {
-
-  .nav{
+  .nav {
     filter: drop-shadow(0 0 2em #007cf8);
   }
   .nav span {
     margin-left: 10px;
     font-size: medium;
   }
-  
+
   .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin-bottom: 50px;
   }
 
   .intro-left {
