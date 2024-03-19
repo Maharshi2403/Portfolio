@@ -34,7 +34,9 @@ body {
   margin-left: 3%;
   margin-right: 3%;
 }
-
+.logo {
+  margin-left: 10px;
+}
 .intro {
   display: flex;
   width: 100%;
@@ -64,6 +66,19 @@ body {
   filter: drop-shadow(0 0 2em #007cf8);
 }
 
+.img-on {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px dotted rgb(190, 40, 83);
+  padding: 15px;
+
+  transition: filter 0.3s;
+}
+
+.img-on:hover {
+  filter: drop-shadow(0 0 2em #007cf8);
+}
 .intro-right {
   margin-top: 70px;
   margin-left: 0px;
@@ -175,6 +190,7 @@ body {
     width: 150px;
     height: 150px;
     margin-bottom: 0;
+    padding: 2px;
     margin-left: 20px;
     margin-right: 70px;
   }

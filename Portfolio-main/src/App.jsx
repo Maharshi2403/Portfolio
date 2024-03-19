@@ -19,7 +19,7 @@ function App() {
 function Navbar() {
   return (
     <div className="nav">
-      <span>Maharshi's Portfolio</span>
+      <span className="logo">Maharshi's Portfolio</span>
       <span className="navRight">
         <a href="https://github.com/Maharshi2403">Github</a>
       </span>
@@ -45,7 +45,7 @@ function Introduction() {
       <div className="intro-left">
         <img
           onMouseOver={changeColor}
-          className={"intro-left-img"}
+          className={onMouse ? "intro-left-img" : "img-on"}
           src={IMAGES.image1}
           alt="Avatar"
         />
