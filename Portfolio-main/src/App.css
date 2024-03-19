@@ -68,7 +68,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 5px dotted #ba1a3a;
+  border: 5px dotted blueviolet;
   padding: 15px;
 
   transition: filter 0.3s;
