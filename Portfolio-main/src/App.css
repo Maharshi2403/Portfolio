@@ -186,8 +186,7 @@ body {
     background-color: #12042a;
     width: 100%;
     display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -209,7 +208,7 @@ body {
   }
 
   .intro-right {
-    font-size: medium;
+    font-size: 15px;
 
     padding-left: 17px;
   }
