@@ -1,9 +1,9 @@
 export const Bio = {
   name: "Maharshi Patel",
-  roles: ["Full Stack Developer", "Cloud enthusiastic", "Programmer"],
+  roles: ["Full Stack Developer", "Tensorflow Learner", "Programmer"],
   description:
-    "I'm excited to explore AI's practical applications. Eager to master TensorFlow and Keras for endless possibilities in Machine Learning."
-}
+    "I'm excited to explore AI's practical applications. Eager to master TensorFlow and Keras for endless possibilities in Machine Learning.",
+};
 export const skills = [
   {
     name: "Java",
@@ -105,4 +105,3 @@ export const skills = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
   },
 ];
-
