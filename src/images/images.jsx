@@ -1,5 +1,5 @@
 const IMAGES = {
-  image1: new URL("./avatar_1706763788.png", import.meta.url).href,
+  image1: new URL("./avatar1.jpg", import.meta.url).href,
   bank: new URL(
     "./pngtree-vector-bank-icon-png-image_1024570.jpg",
     import.meta.url
