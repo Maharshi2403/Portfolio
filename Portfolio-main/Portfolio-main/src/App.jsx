@@ -2,7 +2,7 @@
 import { useState } from "react";
 import IMAGES from "./images/images";
 import "./App.css";
-import { Bio, projects } from "./assets/constants";
+import { Bio } from "./assets/constants";
 import Typewriter from "typewriter-effect";
 import { skills } from "./assets/constants";
 function App() {
@@ -90,23 +90,6 @@ function Skills() {
   );
 }
 
-function Projects() {
-  return (
-    <div className="project">
-      <div className="pro-title">Projects</div>
-
-      {projects.map((project) => (
-        <div key={project.name} className="pro-card">
-          <img src={project.image} alt="projimg" className="pro-img" />
-          <h3>{project.name}</h3>
-          <p>{project.description}</p>
-          <a href={project.link}>Github</a>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-
+function Projects() {}
 
 export default App;
