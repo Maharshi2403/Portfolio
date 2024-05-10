@@ -122,6 +122,13 @@ export const skills = [
 
 export const projects = [
   {
+    name: "Cat-vs-Dog",
+    description:
+      "Convolutional neural network(CNN) | Computer Vision | Image Classification | Tensorflow | Scikit-learn | Keras | Data Preprocessing",
+    image: IMAGES.catvdog,
+    link: "https://github.com/Maharshi2403/Cat-vs-Dog",
+  },
+  {
     name: "Bank Management System",
     description: "Java Swing API  | Authentication    |   MySQL Database",
     image: IMAGES.bank,
@@ -145,12 +152,5 @@ export const projects = [
       "Java Object-Orianted design | Packages | Interfaces and Abstracts | User-friendly system intraction",
     image: IMAGES.encrypt,
     link: "https://github.com/Maharshi2403/Encryption-Decryption-Text",
-  },
-  {
-    name: "Cat-vs-Dog",
-    description:
-      "Convolutional neural network(CNN) | Computer Vision | Image Classification | Tensorflow | Scikit-learn | Keras | Data Preprocessing",
-    image: IMAGES.catvdog,
-    link: "https://github.com/Maharshi2403/Cat-vs-Dog",
   },
 ];
