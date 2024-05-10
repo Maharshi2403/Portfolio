@@ -1,12 +1,6 @@
-import IMAGES from "../images/images";
 export const Bio = {
   name: "Maharshi Patel",
-  roles: [
-    "Software Developer",
-    "Tensorflow Developer",
-    "Full Stack Developer",
-    "Programmer",
-  ],
+  roles: ["Full Stack Developer", "Tensorflow Learner", "Programmer"],
   description:
     "I'm excited to explore AI's practical applications. Eager to master TensorFlow and Keras for endless possibilities in Machine Learning.",
 };
@@ -20,14 +14,6 @@ export const skills = [
     name: "Python",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-  },
-  {
-    name: "Tensorflow",
-    image: IMAGES.tensorflow_img,
-  },
-  {
-    name: "Scikit-Learn",
-    image: IMAGES.sciki,
   },
   {
     name: "JavaScript",
@@ -117,40 +103,5 @@ export const skills = [
     name: "VS Code",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-  },
-];
-
-export const projects = [
-  {
-    name: "Cat-vs-Dog",
-    description:
-      "Convolutional neural network(CNN) | Computer Vision | Image Classification | Tensorflow | Scikit-learn | Keras | Data Preprocessing",
-    image: IMAGES.catvdog,
-    link: "https://github.com/Maharshi2403/Cat-vs-Dog",
-  },
-  {
-    name: "Bank Management System",
-    description: "Java Swing API  | Authentication    |   MySQL Database",
-    image: IMAGES.bank,
-    link: "https://github.com/Maharshi2403/BankManagement",
-  },
-  {
-    name: "Snake Game",
-    description: "Python's Turtle API | Object-Orianted System Design",
-    image: IMAGES.snake,
-    link: "https://github.com/Maharshi2403/Snake-Game",
-  },
-  {
-    name: "Travel Checklist",
-    description: "React.js | React hooks and state",
-    image: IMAGES.travel,
-    link: "https://github.com/Maharshi2403/Travel-Checklist/tree/main/checklist",
-  },
-  {
-    name: "Encryption Decription Text",
-    description:
-      "Java Object-Orianted design | Packages | Interfaces and Abstracts | User-friendly system intraction",
-    image: IMAGES.encrypt,
-    link: "https://github.com/Maharshi2403/Encryption-Decryption-Text",
   },
 ];

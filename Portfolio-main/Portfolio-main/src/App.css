@@ -131,7 +131,7 @@ body {
   margin-right: 10%;
   margin-top: 10%;
   padding: 20px;
-  background-color: #1f033b;
+  background-color: #240847;
   border-radius: 50px;
   border: 5px dotted rgba(51, 28, 141, 0.533);
   transition: filter 0.3s;
@@ -160,46 +160,6 @@ body {
 
 .skill-name {
   margin-top: 10px;
-}
-
-.project {
-  height: auto;
-  width: 100%;
-  margin-top: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.pro-card {
-  margin-top: 50px;
-  height: 460px;
-  width: 220px;
-  background-color: black;
-  border-radius: 20px;
-  border: 1px solid rgba(51, 28, 141, 0.533);
-  padding: 10px;
-  transition: filter 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.pro-card:hover {
-  filter: drop-shadow(0 0 2em #007cf8);
-}
-
-.pro-title {
-  width: 100%;
-  font-size: x-large;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.pro-img {
-  height: 200px;
-  width: 100%;
-  border-radius: 20px;
 }
 
 @media (max-width: 768px) {
