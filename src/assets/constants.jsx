@@ -22,6 +22,14 @@ export const skills = [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
   },
   {
+    name: "Tensorflow",
+    image: IMAGES.tensorflow_img,
+  },
+  {
+    name: "Scikit-Learn",
+    image: IMAGES.sciki,
+  },
+  {
     name: "JavaScript",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
@@ -137,5 +145,12 @@ export const projects = [
       "Java Object-Orianted design | Packages | Interfaces and Abstracts | User-friendly system intraction",
     image: IMAGES.encrypt,
     link: "https://github.com/Maharshi2403/Encryption-Decryption-Text",
+  },
+  {
+    name: "Cat-vs-Dog",
+    description:
+      "Convolutional neural network(CNN) | Computer Vision | Image Classification | Tensorflow | Scikit-learn | Keras | Data Preprocessing",
+    image: IMAGES.catvdog,
+    link: "https://github.com/Maharshi2403/Cat-vs-Dog",
   },
 ];
